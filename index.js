@@ -9,6 +9,9 @@ for(let i = 0; i < characters.length; i++){
         <h2>Name: ${character.name}</h2>
         <p>Type: ${character.type}</p>
         <img src="${character.photo}">
+        <p>
+          Favorite Books: ${character.favoriteBooks}
+        </p>
     `
 }
 
